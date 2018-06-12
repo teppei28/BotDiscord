@@ -16,7 +16,7 @@ clientDiscord.on('ready', () =>{
     console.log('Bot Ready !');
 });
 
-clientDiscord.login('NDU1ODAyNzMyNTc4ODY1MTYy.DgBS5w.TjY93CXyCZ-npcMc-xFokmxV41M');
+clientDiscord.login(process.env.TOKEN);
 
 
 
